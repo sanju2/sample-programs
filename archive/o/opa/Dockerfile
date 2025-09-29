@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 
 RUN useradd -ms /bin/bash -G sudo opauser && \
     passwd -d opauser && \
